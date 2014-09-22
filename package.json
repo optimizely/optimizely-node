@@ -1,0 +1,19 @@
+{
+  "name": "optimizely-node",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for Optimizely REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "optimizely"
+  ],
+  "author": "Cheston Lee",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest-cli": "^0.1.18"
+  }
+}
