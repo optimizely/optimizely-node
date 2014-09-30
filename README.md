@@ -26,3 +26,37 @@ optimizely.projects.fetch('<project_id>').then(function(projectData) {
   //Handle errors
 });
 ```
+
+## Available Objects & Methods
+
+
+* projects
+  * `fetch(id)`
+  * `fetchAll()`
+  * `create(params)`
+  * `save(instance)`
+* experiments
+  * `fetch(id)`
+  * `fetchAll()`
+  * `create(params)`
+  * `save(instance)`
+  * `delete(instance)`
+* goals
+  * `fetch(id)`
+  * `fetchAll()`
+  * `create(params)`
+  * `save(instance)`
+  * `delete(instance)`
+* audiences
+  * `fetch(id)`
+  * `fetchAll()`
+  * `create(params)`
+  * `save(instance)`
+  * `delete(instance)`
+* variations
+  * `fetch(id)`
+  * `fetchAll()`
+  * `create(params)`
+  * `save(instance)`
+  * `delete(instance)`
+

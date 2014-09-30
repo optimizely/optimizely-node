@@ -1,6 +1,6 @@
 {
   "name": "optimizely-node",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Node.js wrapper for Optimizely REST API",
   "main": "lib/optimizely.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "optimizely"
   ],
   "author": "Cheston Lee cheston@optimizely.com",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "es6-promise": "^1.0.0",
     "lodash": "^2.4.1",
@@ -18,5 +18,10 @@
   },
   "devDependencies": {
     "jest-cli": "^0.1.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/optimizely/optimizely-node.git"
+  },
+  "bugs:": "https://github.com/optimizely/optimizely-node/issues"
 }
