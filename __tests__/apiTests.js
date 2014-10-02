@@ -16,6 +16,7 @@ describe('API Layer test suite', function() {
     expect(api._filter).toEqual([]);
 
     var config = api._config;
-    expect(config).toEqual({headers: {}, transforms: {}});
+    expect(config.headers).toEqual({})
+    expect(config.transforms.defaults).toBeDefined();
   });
 });
