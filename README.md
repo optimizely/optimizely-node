@@ -37,25 +37,25 @@ optimizely.projects.fetch('<project_id>').then(function(projectData) {
   * `save(instance)`
 * experiments
   * `fetch(id)`
-  * `fetchAll()`
+  * `fetchAll({project_id: 'project_id'})`
   * `create(params)`
   * `save(instance)`
   * `delete(instance)`
 * goals
   * `fetch(id)`
-  * `fetchAll()`
+  * `fetchAll({project_id: 'project_id'})`
   * `create(params)`
   * `save(instance)`
   * `delete(instance)`
 * audiences
   * `fetch(id)`
-  * `fetchAll()`
+  * `fetchAll({project_id: 'project_id'})`
   * `create(params)`
   * `save(instance)`
   * `delete(instance)`
 * variations
   * `fetch(id)`
-  * `fetchAll()`
+  * `fetchAll({experiment_id: 'experiment_id'})`
   * `create(params)`
   * `save(instance)`
   * `delete(instance)`
