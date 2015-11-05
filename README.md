@@ -13,7 +13,7 @@ Documentation is available at http://developers.optimizely.com/rest/
 Resources are accessible via the `optimizely` instance:
 
 ```js
-var optimizely = require('optimizely-node')(' your api key ')
+var optimizely = require('optimizely-node')(' your api key ', isOauth)
 // optimizely.{ RESOURCE_NAME }.{ METHOD_NAME }
 ```
 
